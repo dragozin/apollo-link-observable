@@ -1,0 +1,47 @@
+{
+    "name": "apollo-link-observable",
+    "version": "0.0.1-alpha.2",
+    "description": "Link that allows you to make side effects of graphql queries using RxJS",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "repository": "https://github.com/dragozin/apollo-link-observable",
+    "license": "MIT",
+    "keywords": [
+        "apollo client link",
+        "apollo client side effects",
+        "apollo client observable"
+    ],
+    "scripts": {
+        "build": "npx tsc",
+        "test": "jest",
+        "lint": "eslint ./src --ext .ts"
+    },
+    "engines": {
+        "node": ">=8.9"
+    },
+    "devDependencies": {
+        "@apollo/client": "3.3.14",
+        "@types/jest": "26.0.22",
+        "@typescript-eslint/eslint-plugin": "4.22.0",
+        "eslint": "7.24.0",
+        "eslint-config-airbnb-typescript": "12.3.1",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jsx-a11y": "6.4.1",
+        "eslint-plugin-react": "7.23.2",
+        "eslint-plugin-react-hooks": "4.2.0",
+        "graphql": "15.5.0",
+        "jest": "26.6.3",
+        "prettier": "2.2.1",
+        "react": "17.0.1",
+        "rxjs": "6.6.7",
+        "ts-jest": "26.5.5",
+        "typescript": "3.9.9"
+    },
+    "peerDependencies": {
+        "@apollo/client": ">=3 <4",
+        "graphql": "^14.0.0 || ^15.0.0",
+        "react": "^16.8.0 || ^17.0.0",
+        "rxjs": ">=6 <7"
+    },
+    "dependencies": {}
+}
