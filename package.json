@@ -1,6 +1,6 @@
 {
     "name": "apollo-link-observable",
-    "version": "0.0.1-alpha.2",
+    "version": "0.0.1",
     "description": "Link that allows you to make side effects of graphql queries using RxJS",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
